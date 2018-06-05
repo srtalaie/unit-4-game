@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.continer{
+    display: flex;
+}
+
+.instructions{
+    margin: 20px 0px;
+    padding: 30px 0px;
+    border: 1px solid black;
+}
+
+.instructions p{
+    padding: 5px 10px;
+}
+
+.wins-losses{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.wins{
+    flex: 1;
+}
+
+.losses{
+    flex: 1;
+}
+
+.gems{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.gem-items{
+    padding: 0px 20px;
+}
+
+.random-number{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border: 1px solid black;
+}
+
+.total-score{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border: 1px solid black;
+}

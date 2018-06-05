@@ -3,19 +3,45 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Crystals Collector</title>
+    <title>CrystalsCollector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>CrystalsCollector</h1>
+
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystals below. By clicking a crystal you will add a specific amount of points to your  total score.</p>
+            <p>You win by matching your total score to the random number generated. You lose the game by having your  total score go above the random number.</p>
+            <p>You must find each value of the crystal by clicking on it. But it is up to you to remeber what each    value is as it will not be displayed anywhere but your total score.</p>
+            <p>Each time the game begins the new values for each crystal will be generated along with a new target    number.</p>
+        </div>
+
+        <div class="random-number" id="target-number">0</div>
+
+        <div class="wins-losses">
+            <div class="wins" id="wins">Wins: </div>
+            <div class="losses" id="losses">Losses: </div>
+        </div>
+
+        <div class="gems">
+            <div class="gem-items" id="crystal1" value="0"><img src="./assets/images/crystal1.jpg" height="100" width="100"></div>
+            <div class="gem-items" id="crystal2" value="0"><img src="./assets/images/crystal2.jpg" height="100" width="100"></div>
+            <div class="gem-items" id="crystal3" value="0"><img src="./assets/images/crystal3.png" height="100" width="100"></div>
+            <div class="gem-items" id="crystal4" value="0"><img src="./assets/images/crystal4.jpg" height="100" width="100"></div>
+        </div>
+
+        <div class="total-score" id="score">Your total Score is: </div>
+    </div>
+    
     <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous">
     </script>
-</head>
-<body>
-    
-
     <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
