@@ -12,12 +12,12 @@
 
     //function that sets the target number into a random number from 60 to 120 and crystals random from 1 to 20
     function makeRandomTarget(){
-        targetNum = Math.floor(Math.random() * 61) + 60;
+        targetNum = Math.floor(Math.random() * 101) + 19;
         return targetNum;
     }
     function makeRandomGemNum(){
         let x =0;
-        x = Math.floor(Math.random() * 19) + 1;
+        x = Math.floor(Math.random() * 11) + 1;
         return x;
     }
 
