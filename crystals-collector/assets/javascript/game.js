@@ -37,7 +37,8 @@
         $('#crystal2').attr('value', crystal2);
         $('#crystal3').attr('value', crystal3);
         $('#crystal4').attr('value', crystal4);
-        
+        $('#score').html(userScore);
+
         //Set wins and losses to what they are
         $('#wins').html('Wins: ' + wins);
         $('#losses').html('Losses: ' + losses);
@@ -45,28 +46,28 @@
 
     //When user clicks on crystal it adds a value to their score
    $('#crystal1').on('click', function(){
-        scoreChecker(userScore, targetNum);
         userScore += crystal1;
         $('#score').html(userScore);
+        scoreChecker(userScore, targetNum);
     });
     $('#crystal2').on('click', function(){
-        scoreChecker(userScore, targetNum);
         userScore += crystal2;
         $('#score').html(userScore);
+        scoreChecker(userScore, targetNum);
     });
     $('#crystal3').on('click', function(){
-        scoreChecker(userScore, targetNum);
         userScore += crystal3;
         $('#score').html(userScore);
+        scoreChecker(userScore, targetNum);
     });
     $('#crystal4').on('click', function(){
-        scoreChecker(userScore, targetNum);
         userScore += crystal4;
         $('#score').html(userScore);
+        scoreChecker(userScore, targetNum);
     });
 
     renderGame();
-    
+
 //Check to see if the score is higher than the target number if not then when a user clicks on a crystal that crystal's value is added and updated to the user's score
 function scoreChecker(usersScore, targetNumber){
     if (userScore > targetNumber){
