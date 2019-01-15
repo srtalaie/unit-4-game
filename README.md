@@ -1,4 +1,4 @@
-#Crystalls Collector and Star Wars RPG Games
+**Crystalls Collector and Star Wars RPG Games
 Games
 
 This repo contains two different games:
