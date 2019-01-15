@@ -1,5 +1,5 @@
-# unit-4-game
-Homework Assignment 4 - Games
+#Crystalls Collector and Star Wars RPG Games
+Games
 
 This repo contains two different games:
 
